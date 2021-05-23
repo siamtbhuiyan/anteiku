@@ -1,0 +1,352 @@
+@media (max-width: 1010px) {
+  #section-b {
+    .front-content {
+      position: static;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .front-writing {
+        position: static;
+        height: 70%;
+        width: 70%;
+        flex: 1;
+        display: block;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+      }
+
+      .front-image {
+        position: static;
+        flex: 1;
+        display: block;
+        height: 70%;
+        width: 70%;
+        justify-self: center;
+        margin-top: 0%;
+        margin-bottom: 5rem;
+
+        img {
+          height: 100%;
+          width: 100%;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  #section-c {
+    .bg {
+      height: auto;
+
+      .bottom-content {
+        .bottom-writing {
+          height: 70%;
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  #about {
+    .about-content {
+      position: static;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+
+      .about-writing {
+        position: static;
+        height: 70%;
+        width: 70%;
+        flex: 1;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 5rem;
+      }
+
+      .about-image {
+        position: static;
+        flex: 1;
+        display: block;
+        height: 70%;
+        width: 70%;
+        justify-self: center;
+        margin-top: 0%;
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+
+        img {
+          height: 100%;
+          width: 100%;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .service-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    .service-coffee {
+      position: static;
+      margin: 0;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5rem;
+
+      .service-c-heading {
+        position: static;
+        height: 70%;
+        width: 70%;
+        flex: 1;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .service-c-image {
+        position: static;
+        display: inline;
+        flex: 1;
+        height: 70%;
+        width: 70%;
+        justify-self: center;
+        margin-bottom: 1rem;
+        margin-top: 0;
+      }
+
+      img {
+        height: 100% !important;
+        width: 100%;
+        margin: 0;
+      }
+
+      .service-c-writing {
+        position: static;
+        height: 70%;
+        width: 70%;
+        flex: 1;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 5rem;
+      }
+    }
+
+    .service-location {
+      position: static;
+      margin: 0;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .service-l-heading {
+        position: static;
+        height: 70%;
+        width: 70%;
+        flex: 1;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .service-l-image {
+        position: static;
+        flex: 1;
+        display: block;
+        height: 70%;
+        width: 70%;
+        justify-self: center;
+        margin-top: 0%;
+        margin-bottom: 1rem;
+        margin-top: 0;
+      }
+
+      img {
+        height: 100% !important;
+        width: 100%;
+        margin: 0;
+      }
+
+      .service-l-writing {
+        position: static;
+        height: 70%;
+        width: 70%;
+        flex: 1;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 5rem;
+      }
+    }
+
+    .service-staff {
+      position: static;
+      margin: 0;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5rem;
+
+      .service-s-heading {
+        position: static;
+        height: 70%;
+        width: 70%;
+        flex: 1;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0rem;
+      }
+
+      .service-s-image {
+        position: static;
+        flex: 1;
+        display: block;
+        height: 70%;
+        width: 70%;
+        justify-self: center;
+        margin-top: 0%;
+        margin-bottom: 1rem;
+        margin-top: 0;
+      }
+
+      img {
+        height: 100% !important;
+        width: 100%;
+        margin: 0;
+      }
+
+      .service-s-writing {
+        position: static;
+        height: 70%;
+        width: 70%;
+        flex: 1;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  #store {
+    .bg {
+      height: auto;
+      margin-bottom: 0;
+
+      .store-content {
+        .box {
+          height: 70%;
+          width: 70%;
+
+          .store-time {
+            margin: auto;
+            height: 70%;
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .front-content {
+    .front-writing {
+      width: 95% !important;
+    }
+
+    .front-image {
+      width: 95% !important;
+    }
+  }
+
+  .bottom-writing {
+    width: 95% !important;
+  }
+
+  .about-image {
+    width: 95% !important;
+  }
+
+  .about-writing {
+    width: 95% !important;
+  }
+
+  .service-c-heading {
+    width: 95% !important;
+  }
+  .service-c-image {
+    width: 95% !important;
+  }
+  .service-c-writing {
+    width: 95% !important;
+  }
+  .service-l-heading {
+    width: 95% !important;
+  }
+  .service-l-image {
+    width: 95% !important;
+  }
+  .service-l-writing {
+    width: 95% !important;
+  }
+  .service-s-heading {
+    width: 95% !important;
+  }
+  .service-s-image {
+    width: 95% !important;
+  }
+  .service-s-writing {
+    width: 95% !important;
+  }
+
+  .box {
+    width: 95% !important;
+
+    .store-time {
+      width: 100% !important;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .main-nav {
+    ul {
+      flex-direction: column;
+      text-align: left;
+      justify-content: left;
+      align-items: left;
+
+      li {
+        text-align: left;
+        padding: 1rem 0.25rem !important;
+      }
+    }
+  }
+
+  #section-a {
+    .logo {
+      margin: 20px 0 !important;
+      text-align: left;
+
+      img {
+        width: 110px;
+        height: 70px;
+      }
+    }
+  }
+}
